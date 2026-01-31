@@ -34,6 +34,6 @@ print(List)
 List.remove("date") #Removing the item "date" from the list
 print(List)
 List.append("oooo") #Adding 3.2 back to the list
-print(List)
+print(List) 
 
 
