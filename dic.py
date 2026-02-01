@@ -15,6 +15,7 @@ info["Course"] = "Computer Science"
 print("Updated Student name: " + info["Student name"])
 print("Updated Course: " + info["Course"])
 print("Total number of items in the dictionary: " + str(len(info)))
+info["Year"] = "2024"
 
 
 
