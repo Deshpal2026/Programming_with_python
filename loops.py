@@ -32,5 +32,6 @@ i = 0
 while i < len(num):
     print(num[i])
     i += 1
-print("Done")
 print (len(num))
+print("Done")
+# This code prints elements of a list and its length using while loop.
