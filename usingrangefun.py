@@ -5,5 +5,8 @@ print("\n")
 
 for i in range(10, 0, -1):
   print(i*n, end=" ") 
+
+
+
    
 print(" \n code is ended")
