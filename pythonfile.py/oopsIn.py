@@ -15,7 +15,7 @@ class CollegeManagementSystem:
 
     def view_students(self):
         if not self.students:
-            print("No students found")
+            print("No students found, Please add students first.")
         else:
             for roll, student in self.students.items():
                 print(f"Roll: {student.roll}, Name: {student.name}")

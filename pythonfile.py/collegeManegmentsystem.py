@@ -9,15 +9,18 @@ def add_student():
 
 # View students
 def view_students():
+
     if not students:
         print("No students found")
     else:
         for roll, name in students.items():
+            
             print(f"Roll: {roll}, Name: {name}")
 
 # Menu
-while True:
-    print("\n1. Add Student")
+while True: 
+
+    print("1. Add Student")
     print("2. View Students")
     print("3. Exit")
 
