@@ -11,8 +11,15 @@
 # sum = int((n*(n+1))/2)
 # print(sum)
 #print sum of first 'n' natural number.
-n = int(input("Enter n natural number "))
+# n = int(input("Enter n natural number "))
+# sum = 0
+# for i in range(1, n+1 ):
+#     sum += i
+# print(sum) 
+
+number = int(input("Enetr n number"))
 sum = 0
-for i in range(1, n+1 ):
-    sum += i
-print(sum)  
+for i in range(1, number + 1):
+    sum = sum + i
+print(sum)
+  
