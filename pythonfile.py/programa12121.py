@@ -1,7 +1,10 @@
-def count_num(n):
-  count = 0
-  while n != 0:
-      n //= n
-      count +=1
-  print(count)
-count_num(384)
+def Count_digit(n):
+    count = 0
+    while n > 0:
+        x = n % 10
+        count += x
+        n//=10
+    return count
+n = int(input("Enter numbers : "))
+result = Count_digit(n)
+print(result)    
